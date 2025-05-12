@@ -39,7 +39,7 @@ def matplotlib_setting():
     return 
 
 # Set global matplotlib params
-matplotlib_setting()
+#matplotlib_setting()
 
 ########################################################
 ## File I/O + Function I/O

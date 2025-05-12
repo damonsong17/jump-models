@@ -164,7 +164,7 @@ def is_ser_df(obj) -> bool:
     """
     Check whether the input object is a Series/DataFrame.
     """
-    return isinstance(obj, PD_TYPE) 
+    return isinstance(obj, (pd.Series, pd.DataFrame)) 
 
 # reviewed
 def is_numbers(x) -> bool:
